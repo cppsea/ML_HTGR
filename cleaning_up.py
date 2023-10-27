@@ -19,4 +19,5 @@ columns_of_interest = ["AccMeanX", "AccMeanY", "AccMeanZ",
 filtered_data = total_data[columns_of_interest]
 
 # Testing the filtered data for accuracy
-# print(filtered_data)
+#print(filtered_data)
+filtered_data.to_csv("filtered_data.csv", index=False)
