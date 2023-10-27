@@ -1,6 +1,6 @@
 # This is Data Cleaning with Pandas. We're selecting 12 columns out of 61:
-# "AccMedianX", "AccMedianY", "AccMedianZ", "GyroMeanX", "GyroMeanY", "GyroMeanZ", 
-# "GyroMedianX", "GyroMedianY", and "GyroMedianZ" 
+# "AccMeanX", "AccMeanY", "AccMeanZ", "AccMedianX", "AccMedianY", "AccMedianZ", 
+# "GyroMeanX", "GyroMeanY", "GyroMeanZ", "GyroMedianX", "GyroMedianY", and "GyroMedianZ" 
 
 import pandas as pd
 
@@ -12,7 +12,8 @@ total_data = pd.read_csv(input_filename)
 # total_data.info()
 
 # Select the 12 column names
-columns_of_interest = ["AccMedianX", "AccMedianY", "AccMedianZ",
+columns_of_interest = ["AccMeanX", "AccMeanY", "AccMeanZ",
+                       "AccMedianX", "AccMedianY", "AccMedianZ",
                        "GyroMeanX", "GyroMeanY", "GyroMeanZ",
                        "GyroMedianX", "GyroMedianY", "GyroMedianZ"]
 filtered_data = total_data[columns_of_interest]
