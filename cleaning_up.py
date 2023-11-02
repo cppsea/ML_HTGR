@@ -18,6 +18,7 @@ columns_of_interest = ["AccMeanX", "AccMeanY", "AccMeanZ",
                        "GyroMedianX", "GyroMedianY", "GyroMedianZ"]
 filtered_data = total_data[columns_of_interest]
 
-# Testing the filtered data for accuracy
-print("%5f" %filtered_data)
-filtered_data.to_csv("filtered_data.csv", index=False)
+# Save the filtered data to a new CSV file
+# Exclude the index column
+# Format: up to 5 decimal places
+filtered_data.to_csv("filtered_data.csv", index=False, float_format="%.5f")
