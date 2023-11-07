@@ -5,7 +5,7 @@
 import pandas as pd
 
 input_filename = "features_14.csv"
-#change
+
 # Read the csv file
 total_data = pd.read_csv(input_filename)
 # Displaying file information
