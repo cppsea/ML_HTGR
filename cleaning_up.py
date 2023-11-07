@@ -12,7 +12,7 @@ total_data = pd.read_csv(input_filename)
 # total_data.info()
 
 # Select the 12 column names
-columns_of_interest = ["AccMeanX", "AccMeanY", "AccMeanZ",
+columns_of_interest = ["Target", "AccMeanX", "AccMeanY", "AccMeanZ",
                        "AccMedianX", "AccMedianY", "AccMedianZ",
                        "GyroMeanX", "GyroMeanY", "GyroMeanZ",
                        "GyroMedianX", "GyroMedianY", "GyroMedianZ"]
