@@ -54,3 +54,14 @@ previous runs with the training data and validation data.
 - Run 9
     - Accuracy of model with Test Data: **96.95%**
     - Nothing in the code was changed; ran the model using the test data.
+
+
+# SVM Documentation 
+![Alt text]![image](https://github.com/cppsea/ML_HTGR/assets/119718093/f4c370e0-df74-445f-826b-4066cf6fee84)
+Blue: accuracy of model run with training data
+
+Red/Orange: accuracy of model run with validation data
+
+Green: accuracy of model run with test data
+
+
