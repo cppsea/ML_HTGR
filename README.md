@@ -64,44 +64,44 @@ Red/Orange: accuracy of model run with validation data
 
 Green: accuracy of model run with test data
 
--Run 1
-    -Accuracy of model using the Training Data: **86.45%**
-    -In the first training run, the SVM model achieved an accuracy of 86.45% on the training data. This 
+- Run 1
+    - Accuracy of model using the Training Data: **86.45%**
+    - In the first training run, the SVM model achieved an accuracy of 86.45% on the training data. This 
 indicates that the model correctly classified 86.45% of the instances in the training set.
--Run 2
-    -Accuracy of model using the Validation Data: **72.73%**
-    -The model was evaluated on a separate validation dataset, and it achieved an accuracy of 72.73%.
+- Run 2
+    - Accuracy of model using the Validation Data: **72.73%**
+    - The model was evaluated on a separate validation dataset, and it achieved an accuracy of 72.73%.
 The decrease in accuracy from the training to the validation data suggests a potential issue with 
 overfitting. Overfitting occurs when the model performs well on the training data but fails to 
 generalize to new, unseen data.
--Run 3
-    -Accuracy of model using the Training Data: **81.29%**
-    -In the second training run, the model achieved a lower accuracy of 81.29% on the training data. 
+- Run 3
+    - Accuracy of model using the Training Data: **81.29%**
+    - In the second training run, the model achieved a lower accuracy of 81.29% on the training data. 
 This may indicate changes in the data distribution or potential model sensitivity to parameter 
 variations.
--Run 4
-    -Accuracy of model using the Training Data: **85.81%**
-    -The model's accuracy on the training data increased to 85.81% in the third run. Variations in 
+- Run 4
+    - Accuracy of model using the Training Data: **85.81%**
+    - The model's accuracy on the training data increased to 85.81% in the third run. Variations in 
 accuracy between runs could be attributed to factors like data shuffling, model initialization, or 
 random splitting.
--Run 5
-    -Accuracy of model using the Validation Data: **84.52%**
-    -The accuracy on the validation data in the second run was 84.52%. This indicates how well the 
+- Run 5
+    - Accuracy of model using the Validation Data: **84.52%**
+    - The accuracy on the validation data in the second run was 84.52%. This indicates how well the 
 model generalizes to new, unseen data in the context of the changes made in the second run.
--Run 6
-    -Accuracy of model using the Training Data: **85.16%**
-    -The model achieved an accuracy of 85.16% on the training data. The fluctuation in accuracy 
+- Run 6
+    - Accuracy of model using the Training Data: **85.16%**
+    - The model achieved an accuracy of 85.16% on the training data. The fluctuation in accuracy 
 suggests sensitivity to training conditions or inherent variability in the data.
--Run 7
-    -Accuracy of model using the Training Data: **85.81%**
-    -Similar to earlier runs, variations in accuracy may be influenced by factors such as data 
+- Run 7
+    - Accuracy of model using the Training Data: **85.81%**
+    - Similar to earlier runs, variations in accuracy may be influenced by factors such as data 
 characteristics or model parameters.
--Run 8
-    -Accuracy of model using the Validation Data: **86.36%**
-    -This provides insight into how well the model generalizes when considering changes made in the 
+- Run 8
+    - Accuracy of model using the Validation Data: **86.36%**
+    - This provides insight into how well the model generalizes when considering changes made in the 
 third run.
--Run 9
-    -Accuracy of model using the Test Data: **84.09%**
-    -The model's performance on a separate test dataset, not used during training or validation, was 
+- Run 9
+    - Accuracy of model using the Test Data: **84.09%**
+    - The model's performance on a separate test dataset, not used during training or validation, was 
 84.09% in the first run. This reflects the model's ability to generalize to completely new data
 
