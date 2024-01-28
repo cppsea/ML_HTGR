@@ -105,3 +105,31 @@ third run.
     - The model's performance on a separate test dataset, not used during training or validation, was 
 84.09% in the first run. This reflects the model's ability to generalize to completely new data
 
+
+# Random Forest Documentation 
+![image](https://github.com/cppsea/ML_HTGR/assets/119718093/29b47e61-beb7-4fd2-951c-706111f0fd65)
+Blue: accuracy of model run with training data
+
+Red/Orange: accuracy of model run with validation data
+
+Green: accuracy of model run with test data
+
+- Run 1 
+    - Accuracy of model using the Training Data: 86.9%
+    - Accuracy alternated between 100% and 86.9% between different models created.
+Random forest is more complex and prone to overfitting with smaller/less complicated
+data sets.
+- Run 2
+    - Accuracy of model using the Validation Data: 99.81%
+    - Overfitting or data memorization seems to have taken effect.
+- Run 3
+    - Accuracy of model using the Training Data: 100%
+    - Model will now repeatedly output accuracy of 100% for any training/validation runs.
+- Run 4
+    - Accuracy of model using the Training Data: 100%
+- Run 5
+    - Accuracy of model using the Validation Data: 100%
+    - We skip to the final test data set, which also happens to lack complexity for this model.
+- Run 6
+    - Accuracy of model using the Test Data: 99.92%
+    - The accuracy of this model over the other models is a result of the overfitting that occured in the training and validating stages. Because of the data being significanty smaller to the overfitting done, the accuracy for this models test data ended up being much higher than the other two models.
