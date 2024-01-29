@@ -7,9 +7,9 @@ This Machine Learning Project is designed to hone Machine Learning concepts and 
 This project was completed in 3 months using agile methedology and self-study. 
 
 Contributors:
--Team Lead: 
+- Team Lead: 
     -Prerna Joshi
--Team Members:
+- Team Members:
     - Elena Hernandez
     - Tony Gonzalez
     - Yunseon Choi
