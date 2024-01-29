@@ -7,7 +7,21 @@ This Machine Learning Project is designed to hone Machine Learning concepts and 
 This project was completed in 3 months using agile methedology and self-study. 
 
 Contributors:
-- [insert names]
+-Team Lead: 
+    -Prerna Joshi
+-Team Members:
+    - Elena Hernandez
+    - Tony Gonzalez
+    - Yunseon Choi
+    - Arnav Sahu
+    - Jeffrey Hoang
+    - Akshat Bist
+    - Michelle Reyes
+    - Henry Do
+    - Chi Hao Nguyen
+
+# Splitting the dataset
+The dataset was split in a 7:1:2 ratio for training, validating and testing purposes. We split the data so that it was proportionally distributed within the labels making it more efficient for our models to understand it quickly instead of just randomly splitting it. More details for this split can be seen in this file https://github.com/cppsea/ML_HTGR/blob/main/DataCleaning/splitAndScale.py 
 
 # LSTM Documentation 
 ![image](https://github.com/cppsea/ML_HTGR/assets/119718093/e4b1f2ca-f064-41f5-ba22-30e197dac141)
