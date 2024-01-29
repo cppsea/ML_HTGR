@@ -8,7 +8,7 @@ This project was completed in 3 months using agile methedology and self-study.
 
 Contributors:
 - Team Lead: 
-    -Prerna Joshi
+    - Prerna Joshi
 - Team Members:
     - Elena Hernandez
     - Tony Gonzalez
