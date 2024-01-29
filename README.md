@@ -10,7 +10,8 @@ Contributors:
 - [insert names]
 
 # LSTM Documentation 
-![Alt text](image.png)
+![image](https://github.com/cppsea/ML_HTGR/assets/119718093/e4b1f2ca-f064-41f5-ba22-30e197dac141)
+
 Blue: accuracy of model run with training data
 
 Red: accuracy of model run with validation data
